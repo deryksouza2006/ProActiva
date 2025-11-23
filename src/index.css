@@ -1,57 +1,49 @@
 @import "tailwindcss";
 
-/* Estilos globais para reset e aplicação de fontes */
-@layer base {
-  body {
-    overflow-x: hidden;
-    font-family: sans-serif;
-    /* background-color: rgb(249 250 251); */
-    /* color: rgb(31 41 55); */
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-  }
-  
-  /* Estilo para links que não são botões */
-  a {
-    color: #6366F1;
-    transition: color 0.2s;
-  }
-  
-  a:hover {
-    color: #3B82F6;
-  }
+/* Seus estilos customizados abaixo */
+body {
+  overflow-x: hidden;
+  font-family: sans-serif;
 }
 
-/* Estilos de componentes customizados, se necessário */
-@layer components {
-  .btn-primary {
-    background-color: #6366F1;
-    color: white;
-    font-weight: 600;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    transition: background-color 0.2s;
-  }
-  
-  .btn-primary:hover {
-    background-color: #3B82F6;
-  }
-  
-  .btn-secondary {
-    background-color: white;
-    color: #6366F1;
-    border: 1px solid #6366F1;
-    font-weight: 600;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    transition: background-color 0.2s;
-  }
-  
-  .btn-secondary:hover {
-    background-color: rgb(243 244 246);
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+a {
+  color: #6366F1;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #3B82F6;
+}
+
+.btn-primary {
+  background-color: #6366F1;
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #3B82F6;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #6366F1;
+  border: 1px solid #6366F1;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  transition: background-color 0.2s;
+}
+
+.btn-secondary:hover {
+  background-color: rgb(243, 244, 246);
 }
