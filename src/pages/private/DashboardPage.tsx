@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Clock, ListChecks, CheckCircle, Timer, Target, Coffee, Smile } from 'lucide-react';
+import { Heart, Clock, ListChecks, Timer, Target, Coffee, Smile } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 import { Link } from 'react-router-dom';
 

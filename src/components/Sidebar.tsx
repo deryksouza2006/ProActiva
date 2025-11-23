@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import {  useLocation, useNavigate } from 'react-router-dom';
 import { useTheme } from '../contexts/ThemeContext';
-import { LayoutDashboard, Clock, ListChecks, Heart, Smile, Wind, User, LogOut, X, Menu, HelpCircle, Mail, Users, Home, Info, Sun, Moon } from 'lucide-react';
+import { Clock, ListChecks, Heart, Wind, User, LogOut, X, Menu, HelpCircle, Mail, Users, Home, Info, Sun, Moon } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 
 interface SidebarProps {
